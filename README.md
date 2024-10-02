@@ -6,6 +6,8 @@ The backend handles user authentication, song upload, playlist management, and o
 
 It also integrates third-party services like Cloudinary for file storage, Nodemailer for email communication, and Multer for file handling.
 
+**NOTE :** The frontend is handled separately.
+
 ## Technologies Used
 - **Node.js** - Backend runtime environment.
 - **Express.js** - Framework for building APIs.
@@ -21,7 +23,7 @@ It also integrates third-party services like Cloudinary for file storage, Nodema
 
 ## API Endpoints
 
-*BASE_URL* : 
+*BASE_URL* : *https://music-streamming-sk-app-be.onrender.com*
 
 **Song Retrieval**
 
@@ -46,3 +48,13 @@ It also integrates third-party services like Cloudinary for file storage, Nodema
 1. ***Multer*** *is used for handling file uploads.*
 2. ***Cloudinary*** *is integrated using multer-storage-cloudinary to store audio files in the cloud.*
 3. ***JWT*** *is used to protect private routes.*
+
+## Documentation
+
+A complete API reference with detailed endpoints and request examples is available through Postman documentation, where all APIs are documented and published : 
+[ SK Music Streamming App - API Documentation](https://documenter.getpostman.com/view/35371272/2sAXxJjFQC)
+
+## Deployment
+
+Front End Deployed URL : 
+https://music-streamming-sk-fe.netlify.app/
