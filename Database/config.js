@@ -10,8 +10,9 @@ const connectDB = async (req,res)=>{
         return connection; 
     } catch (error) { 
         console.log(error)
+        return error;
         // res.status(500).json({message:"MONGODB Connection Error",error})
-        res.status(500).json({message:"MONGODB Connection Error",error})
+        // res.status(500).json({message:"MONGODB Connection Error",error})
      
     }
 }
